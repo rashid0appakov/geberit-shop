@@ -1,0 +1,47 @@
+.debug * {
+    outline-offset: -1px;
+    outline: rgba(0,0,0,.1) solid 1px;
+    background-color: rgba(0,0,0,.1);
+    opacity: 1;
+    color: white !important;
+}
+.debug *:hover:before {
+    content: attr(class);
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    left: 0;
+    top: 0;
+    line-height: 2em;
+    padding: 0 2em;
+    font-size: 1em;
+    color: red;
+    font-family: monospace;
+    background: black;
+    z-index: 99999;
+}
+.debug * > * {
+    outline-offset: -1px;
+    outline: rgba(0,0,0,.1) solid 1px;
+}
+.debug * > * > * {
+    outline-offset: -1px;
+    outline: rgba(0,0,0,.1) solid 1px;
+}
+.debug * > * > * > * {
+    outline-offset: -1px;
+    outline: yellow solid 1px;
+    opacity: .9;
+}
+.debug * > *:hover {
+    opacity: 1;
+    background-color: rgba(0,0,128,.4);
+}
+.debug * > * > *:hover {
+    opacity: 1;
+    background-color: rgba(0,128,0,.4);
+}
+.debug * > * > *:hover {
+    opacity: 1;
+    background-color: rgba(128,0,0,.4);
+}

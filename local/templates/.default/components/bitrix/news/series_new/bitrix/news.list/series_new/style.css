@@ -1,0 +1,73 @@
+.brand-items{position: relative; clear: both; overflow: hidden;}
+    .brand-item{border: 1px dotted #ebebeb;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    display: inline-block;}
+    .brand-item::after{
+        display: block; position: absolute; /*border-left: 1px solid #ebebeb;*/
+        width: 1px; content: ' '; left: 30%; top: 0px; bottom: 0px;}
+    .brand-item-title-wrapper{/*position: relative; */
+    overflow: hidden;
+    /* float: right; */
+    width: 100%;
+    /* margin-left: 5%; */
+    text-align: center;}
+        .brand-item-title-wrapper h2{font-size: 15px; font-weight: bold;}
+            .brand-item-title-wrapper h2 span{font-weight: normal;}
+    .brand-item-photo{/*float: left; width: 30%;  position: relative;
+        line-height: 180px; margin-bottom: -100px;*/text-align: center;}
+        .brand-item-photo img{width: 75%;}
+    .brand-item-blocks{float: left; width: 45%; margin-right: 5%; position: relative; overflow: hidden;
+        padding-top: 20px;}
+    .brand-item-blocks:last-child{margin-right: 0px;}
+        .brand-item-blocks h3{font-size: 13px; margin-top: 0px; font-weight: bold; margin-bottom: 15px;}
+        .brand-item-blocks li{margin-bottom: 10px; font-size: 13px; color: #a7a7a7;}
+            .brand-item-blocks li a{font-size: 13px;}
+
+    .brand-item-link{display: block; text-decoration: none; width: 30px; height: 30px;
+        background: url('/local/templates/tiptop/images/arrowCard.png') no-repeat 0 0;
+        position: absolute; right: 25px; bottom: 25px;}
+
+@media screen and (max-width: 768px) {
+    .brand-item-title-wrapper{width: 100%; margin: 0px;}
+    .brand-item-photo{width: 100%; line-height: 100%; margin-bottom: 0px;}
+    .brand-item-photo img{width: auto; margin-bottom: 20px;}
+    .brand-item::after{display: none;}
+    .brand-item{padding: 30px;}
+}
+.brands__head {margin-bottom: 25px;}
+.brands__head a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #3273dc !important;
+    font-weight: bold;
+    border-radius: 40%;
+}
+.brands__head a.active, .brands__head a:hover {
+    color: #fff !important;
+    background-color: #363636;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.brands__head button {
+    display: block;
+    color: #fff;
+    background-color: #3273dc;
+    border: none;
+    width: 115px;
+    height: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.brands__head button:hover {
+    background-color: #3d6de1;
+}

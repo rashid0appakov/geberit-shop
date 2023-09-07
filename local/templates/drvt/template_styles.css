@@ -1,0 +1,80 @@
+.list_prop {
+    display: block;
+}
+
+@media (max-width: 768px) {
+	.list_prop {
+		height: auto;
+	}
+}
+
+div.btn.is-primary:hover {
+    background-color: #8184a1;
+}
+
+.toolbar-bottom__button.is-desabled:hover {
+	background-color: #8184a1 !important;
+}
+
+.roistat_desktop {
+	top: 35px;
+}
+
+.roistat_mobile {
+	display: none;
+	position: absolute;
+    top: -20px;
+    left: 0px;
+    background-color: #3f83c5;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+@media (max-width: 768px) {
+	.roistat_desktop {
+		display: none;
+	}
+	
+	.roistat_mobile {
+		display: block;
+	}
+	
+}
+
+.actionCallRequest {
+	border-bottom: 1px dotted #4084c5;
+    text-decoration: none !important;	
+}
+
+.button_credit {
+	margin-top: 10px;
+}
+
+.button_credit a {
+	color: #000  !important;
+	background-color: #ffdf00 !important;
+    border-color: #ffdf00 !important;
+}
+
+.button_credit a:hover {
+	color: #000  !important;
+	background-color: #ceb507 !important;
+    border-color: #ceb507 !important;
+}
+
+.button_credit_cart {
+	margin-top: 0px;
+}
+
+.button_credit_cart a {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.button_credit_cart {
+		margin-top: 10px;
+	}
+	
+}

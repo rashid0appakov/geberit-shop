@@ -1,0 +1,1 @@
+<a href="/about/" class="animate-partner-left btn is-primary">Подробнее <img src="/local/templates/.default/images/arrow_right-light.png" class="icon-arrow-right"></a>

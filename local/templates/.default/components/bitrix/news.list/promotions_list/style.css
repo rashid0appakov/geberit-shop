@@ -1,0 +1,110 @@
+.promotions-list {
+    
+}
+
+.promotions__item {
+    margin-bottom: 30px;
+}
+.promotions__item a{
+    text-decoration: underline;
+}
+.promotions__item a:hover{
+    text-decoration: none;
+}
+
+.promotions__item-image-wrap{
+    padding-bottom: 10px;
+    position: relative;
+}
+.promotions__item-image{
+    
+}
+.promotions__item-image img{
+    
+}
+
+.promotions__item-block {
+    
+}
+
+.promotions__item-date {
+    padding-right: 15px;
+}
+.promotions__item-name {
+
+}
+
+@media screen and (min-width: 769px) {
+    .promotions-list {
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+    
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .promotions__item {
+        width: calc(50% - 30px);
+        margin: 0 15px 30px;
+    }
+}
+/*
+.promotions__item-image-wrap .time_buy_cont{
+	min-width:138px;
+	height:30px;	
+	display:table;
+	position:absolute;
+	left:15px;
+	bottom:12px;
+}
+.promotions__item-image-wrap .time_buy_clock,
+.promotions__item-image-wrap .time_buy_timer{
+	display:table-cell;
+	vertical-align:middle;	
+}
+.promotions__item-image-wrap .time_buy_clock{
+	width:28px;
+	padding-left:3px;
+}
+.promotions__item-image-wrap .time_buy_timer .countdown-row{	
+	display:table;	
+}
+.promotions__item-image-wrap .time_buy_timer .countdown-section{
+	display:table-cell;
+	vertical-align:middle;	
+	padding-left:7px;
+	padding-right:4px;
+	position:relative;
+}
+.promotions__item-image-wrap .time_buy_timer .countdown-section:first-child{
+	padding-left:0px;
+}
+.promotions__item-image-wrap .time_buy_timer .countdown-section:last-child,
+.promotions__item-image-wrap .time_buy_timer .over{
+	padding-right:10px;
+}
+.promotions__item-image-wrap .time_buy_timer .countdown-section:after{
+	position:absolute;
+	left:0px;
+	top:auto;
+}
+.promotions__item-image-wrap .time_buy_timer .countdown-period{
+	display:none;
+}
+*/

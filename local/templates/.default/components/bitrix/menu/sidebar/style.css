@@ -1,0 +1,35 @@
+.sidebar-menu {
+    width: 270px;
+    border: 1px solid #ebebeb;
+}
+.sidebar-menu__list {
+
+}
+.sidebar-menu__item {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid #ebebeb;
+}
+.sidebar-menu__list .sidebar-menu__item:last-child {
+    border-bottom: none;
+}
+.sidebar-menu__item-title {
+    padding: 0px;
+    position: relative;
+    cursor: pointer;
+    color: rgb(22, 21, 21);
+}
+.sidebar-menu__item-link {
+    color: rgb(22, 21, 21);
+    padding: 16px 20px;
+    display: block;
+}
+.sidebar-menu__item > .sidebar-menu__item-title:hover,
+.sidebar-menu__item--active > .sidebar-menu__item-title {
+    background: #3f83c5;
+}
+.sidebar-menu__item-title:hover .sidebar-menu__item-link,
+.sidebar-menu__item--active .sidebar-menu__item-link {
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+.list_prop {
+    display: block;
+}
+
+@media (max-width: 768px) {
+	.list_prop {
+		height: auto;
+	}
+}
+
+div.btn.is-primary:hover {
+    background-color: #8184a1;
+}
+
+.toolbar-bottom__button.is-desabled:hover {
+	background-color: #8184a1 !important;
+}

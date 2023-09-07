@@ -1,0 +1,123 @@
+.search-field {
+    position: relative;
+    width: 100%;
+}
+
+.header-submit {
+    margin-left: 0 !important;
+    right: 0px;
+}
+
+.search-field .search-menu-popup2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: calc(100% - 3px);
+    left: 0;
+    z-index: 10;
+    border: #e1e1e1 solid 1px;
+}
+
+.search-field .search-menu-popup2.active {
+    display: block;
+}
+
+.search-field .search-menu-popup2 .line {
+    background-color: white;
+    padding: 15px 20px;
+    border-bottom: #e1e1e1 solid 1px;
+    clear: both;
+    min-height: 90px;
+}
+
+.search-field .search-menu-popup2 .line a {
+    display: block;
+    height: 100%;
+    color: black;
+    font-family: RobotoRegular;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.search-field .search-menu-popup2 .line:hover a div {
+    color: #4084c5;
+    text-decoration: underline;
+}
+
+.search-field .search-menu-popup2 .line:last-child {
+    border: none;
+}
+
+.search-field .search-menu-popup2 .line img {
+    float: left;
+    border: #e1e1e1 solid 1px;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.search-field .search-menu-popup2 .line .article {
+    /*display: none;*/
+    /*margin-bottom: 5px;*/
+    color: #8c8c8c;
+}
+
+.search-field .search-menu-popup2 .line .old {
+    font-family: RobotoRegular;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8c8c8c;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.search-field .search-menu-popup2 .line .new {
+    font-family: AbradeBold;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+}
+
+.search-field .search-menu-popup2 .line div {
+    margin-bottom: 5px;
+}
+
+.search-field .search-menu-popup2 .line.big .article {
+    /*display: inline-block;*/
+}
+
+.search-field .search-menu-popup2 .line.big div {
+    margin-bottom: 10px;
+}
+
+.search-field .search-menu-popup2 .line.big {
+    padding: 23px;
+    height: 180px;
+}
+
+.search-field .search-menu-popup2 .line.big a {
+    border: #4084c5 solid 2px;
+    padding: 20px;
+    position: relative;
+}
+
+.search-field .search-menu-popup2 .line.big a::before {
+    content: '%';
+    position: absolute;
+    background: #ea3b5c;
+    color: #ffffff;
+    font-family: AbradeBold;
+    line-height: 28px;
+    padding: 0 6px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 16px;
+    left: 7px;
+    top: 7px;
+}
+
+.search-field .search-menu-popup2 .line.big img {
+    border: none;
+}

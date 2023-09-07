@@ -1,0 +1,27 @@
+.promo .text {
+    position: absolute;
+    top: 95px;
+    left: 136px;
+    right: 130px;
+    text-align: left;
+}
+
+.promo .text .text-before {
+    margin-bottom: 15px;
+}
+
+.promo .text .text-before,
+.promo .text .text-after {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+}
+
+.promo .title {
+    font-family: RobotoCondensedBoldItalic, sans-serif;
+    font-size: 72px;
+    line-height: 81px;
+    color: white;
+    text-transform: uppercase;
+}

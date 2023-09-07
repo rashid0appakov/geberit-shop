@@ -1,0 +1,112 @@
+table.custom-table {
+    font-size: 0.9rem;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+}
+table.custom-table td {
+    border: 1px solid #ebebeb !important;
+}
+table.custom-table thead th {
+   background: #aeafae;
+   color: #fff !important;
+}
+table.custom-table thead th,
+table.custom-table tbody td {
+    font-size: 0.9rem;
+   border-width: 1px !important;
+}
+table.custom-table tbody tr:nth-child(even) td{
+    background: #fafbfc;
+}
+
+.tabs.payments__tabs {
+    justify-content: flex-start;
+    border-bottom: #dcdcdc solid 1px;
+}
+.tabs.payments__tabs .tabs__header--title {
+    font-size: 13px;
+    color: rgb(89, 97, 104);
+}
+.tabs.payments__tabs ul {
+    border-bottom-width: 0px !important;
+}
+.tabs.payments__tabs .tabs__underline {
+    top: 52px
+}
+
+.payment-block {
+    line-height: 1.4;
+    font-size: 0.9rem;
+}
+.payment-block__description {
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.payment-block__items {
+    margin-top: 20px;
+}
+.payment-block__description ~ .payment-block__items .payment-block__item:first-child {
+    border-top: 1ps dashed #ebebeb;
+}
+.payment-block__item {
+    border-top: 1px dashed #ebebeb;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.payment-block__item:first-child {
+    border-top: 0;
+}
+.payment-block__item-icon-wrapper {
+    flex: 0 0 100px;
+    margin-right: 20px;
+}
+.payment-block__item-icon {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.payment-block__item-content {
+    margin: 0;
+    width: 100%;
+}
+.payment-block__item-title {
+}
+.payment-block__item-text {
+    font-size: 0.9rem;
+}
+.payment-block ol {
+    counter-reset: myCounter;
+    padding: 0;
+    margin-left: 0 !important;
+}
+.payment-block ol > li{
+    list-style: none;
+    position: relative;
+    padding-left: 2.5em;
+    margin: 0.6em 0;
+    list-style: none;
+    line-height: 1.5em;
+}
+.payment-block ol > li:before {
+    content: counter(myCounter);
+    counter-increment: myCounter;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0px;
+    color: #3f83c5;
+    background: #fff;
+    border: 1px solid #3f83c5;
+    font-weight: bold;
+    text-align: center;
+    border-radius: .9em;
+    z-index: 1;
+}

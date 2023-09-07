@@ -1,0 +1,55 @@
+.benefits .title {
+    font-family: AbradeMedium;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #010101;
+    width: 80%;
+}
+
+.benefits p {
+    font-family: RobotoRegular;
+    font-size: 13px;
+    line-height: 20px;
+    color: #676767;
+}
+
+.benefits .columns .column {
+    border-left: #e1e1e1 solid 1px;
+    padding: 50px 45px;
+    position: relative;
+}
+
+.benefits .columns .column:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+.benefits .columns .column:last-child {
+    padding-right: 0;
+}
+
+.benefits .columns .column:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 66px;
+    height: 66px;
+    right: 25px;
+    top: -5px;
+    border-radius: 50%;
+    background-color: #ffc613;
+}
+
+.benefits .columns .column:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 66px;
+    height: 66px;
+    right: 25px;
+    top: -5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

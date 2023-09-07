@@ -1,0 +1,1 @@
+<a target="_blank" href="https://www.geberit.ru/local-media/downloadcenter/documents/geberit-220x150-prompt-seller-2019-web.pdf">Скачать PDF каталог</a>

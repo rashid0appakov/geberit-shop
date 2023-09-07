@@ -1,0 +1,1 @@
+<img width="100%" src="/upload/geberit/logo3.png">

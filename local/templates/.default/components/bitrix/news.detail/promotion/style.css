@@ -1,0 +1,15 @@
+.descr-pic img {
+	width: 100%;
+	margin: 10px 0 25px;
+}
+.descr{margin-bottom: 25px;}
+@media screen and (max-width:1199px){
+    .goods__card-sort--container.hide.mobile-show .goods__card-sort-filter{
+        display: none;
+    }
+    .goods__card-sort--container.hide.mobile-show .goods__card-sort-filter-button{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .goods__card-sort--container.hide-mobile .goods__card-sort-filter{width: 0px; margin: 0px; padding: 0px; overflow: hidden;}
+}

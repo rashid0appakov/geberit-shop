@@ -1,0 +1,373 @@
+.productInSlaider{
+	width: 100%;
+	background: #fff;
+	position: relative;
+	height: 484px;
+    margin-bottom: 74px;
+    border: #ebebeb solid 1px;
+}
+.productInSlaider:hover{
+	box-shadow: 2.5px 4.33px 16px rgba(0, 0, 0, 0.12);
+}
+.productInSlaider:hover .productInSlaiderCallConsultant{
+    visibility: visible;
+    height: 64px;
+    border: 1px solid #ebebeb;
+}
+.productInSlaider:hover .productInSlaiderImg-1{
+    visibility: hidden;
+    display: none;
+}
+.productInSlaider:hover .productInSlaiderImg-2{
+    visibility: visible;
+    display: block;
+}
+.productInSlaider .productInSlaiderCompare{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	top: 10px;
+	right: 10px;
+	border: 1px solid #dbdbdb;
+    background: #fff;
+}
+.icon-diff {
+	color: #363636;
+}
+.icon-diff svg{
+    height: 100%;
+    width: 100%;
+
+}
+.productInSlaiderCompare:hover svg .column:nth-child(1){
+    animation-duration: .6s;
+    animation-name: diffDanceColumn1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    y: 8;
+    height: 10px;
+}
+.productInSlaiderCompare:hover svg .column:nth-child(2){
+    animation-duration: .6s;
+    animation-name: diffDanceColumn2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    y: 0;
+    height: 18px;
+}
+.productInSlaiderCompare:hover svg .column:nth-child(3){
+    animation-duration: .6s;
+    animation-name: diffDanceColumn3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    y: 4;
+    height: 14px;
+}
+.column{
+	display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: .75rem;
+}
+@keyframes diffDanceColumn1 {
+    0% {
+        y: 8;
+        height: 10px;
+    }
+
+    100% {
+        y: 0;
+        height: 18px;
+    }
+}
+
+@keyframes diffDanceColumn2 {
+    0% {
+        y: 0;
+        height: 18px;
+    }
+
+    100% {
+        y: 10;
+        height: 8px;
+    }
+}
+
+@keyframes diffDanceColumn3 {
+    0% {
+        y: 4;
+        height: 14px;
+    }
+
+    50% {
+        y: 0;
+        height: 18px;
+    }
+
+    100% {
+        y: 12;
+        height: 6px;
+    }
+}
+
+.productInSlaiderImg-2{
+    visibility: hidden;
+    display: none;
+}
+.productInSlaiderImg-1, .productInSlaiderImg-2 {
+	width: 100%;
+	min-height: 280px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.productInSlaiderImg-1 img, .productInSlaiderImg-2 img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.badges{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	max-width: 220px;
+}
+.productTag{
+	font-family: RobotoMedium;
+    font-size: 11px;
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+    line-height: 25px;
+    height: auto;
+    padding: 0 11px;
+    margin-bottom: 0.25rem;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+.productTagNew{
+	background-color: #f7941d;
+}
+.productTagLeader{
+	background-color: #8dc63f;
+}
+.productTagDiscount{
+	background-color: #ea3b5c;
+}
+.productTagRecomend{
+	background-color: #f7941d;
+}
+.productTagShowRoom{
+	background-color: #154b7e;
+}
+.productTagSale{
+    background-color: #e93b5b;
+}
+.productInSlaiderInfo{
+	padding: 0 20px 26px 20px;
+}
+.productInSlaiderAvailability{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    margin-bottom: 15px;
+}
+.productInSlaiderArtnum{
+	font-size: 12px;
+    line-height: 22px;
+    color: #8c8c8c;
+}
+.productInSlaiderAvailable {
+	color: #58b060;
+    padding-left: 15px;
+    background: url(img/check.png) no-repeat left center;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+.productInSlaiderNotAvailable{
+	color: #8c8c8c;
+    padding-left: 20px;
+    background: url(img/time.png) no-repeat left center;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+.productInSlaiderName{
+    line-height: 20px;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.productInSlaiderNameParent{
+    margin-bottom: 20px;
+    height: 43px;
+}
+.productInSlaiderBuy{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.productInSlaiderPrice{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.productInSlaiderPriceOld{
+	font-size: 14px;
+    color: #afa7a7;
+    position: relative;
+}
+.productInSlaiderPriceOld:after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #afa7a7;
+    top: 45%;
+    opacity: .5;
+}
+.productInSlaiderPriceNew{
+    font-family: 'AbradeBold';
+	font-size: 24px;
+    color: #1e1e1e;
+}
+.productInSlaiderCartButton{
+	min-width: 90px;
+    height: 44px;
+    box-sizing: border-box;
+    background-color: #4084c5;
+    transition: background .3s linear;
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: center;
+    padding: 0 .75em;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 45px;
+}
+.productInSlaiderComplement{
+	border-top: #ebebeb solid 1px;
+	height: 34px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productInSlaiderComplementProps{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productInSlaiderComplementPropsItem img{
+	width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin-right: 2px;
+    border: #ebebeb solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+}
+.productInSlaiderOneclick{
+	font-size: 12px;
+}
+.productInSlaiderCallConsultant{
+	position: absolute;
+	border: 1px solid #ebebeb;
+	left: -1px;
+    box-shadow: 0 12px 27px rgba(0, 0, 0, .15);
+    z-index: 9;
+    visibility: hidden;
+    box-shadow: 2.5px 4.33px 16px rgba(0, 0, 0, 0.12);
+    background-color: #f9f9fb;
+    border: 1px solid #ebebeb;
+    padding: 9px 0px 0px 20px;
+    height: 0;
+    transition: .3s linear;
+    overflow: hidden;
+    right: -1px;
+    width: auto;
+}
+.productInSlaiderCallConsultantSpeaker{
+	height: 53px;
+	display: block;
+    float: left;
+    margin-right: 20px;
+    border: #e1e1e1 solid 1px;
+    border-radius: 50%;
+    background: #efefef;
+    position: relative;
+}
+.productInSlaiderCallConsultantSpeakerIcon{
+	padding: 12px;
+	height: auto;
+    max-width: 100%;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.productInSlaiderCallConsultantSpeakerDot{
+	width: 10px;
+    height: 10px;
+    background: #8dc63f;
+    border: white solid 2px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(1);
+    animation-duration: 2s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.productInSlaiderCallConsultantSpeakerDot.disabled {
+    background: red;
+    animation: none;
+}
+.productInSlaiderCallConsultantSpeakerLink{
+	padding: 6px 0;
+
+}
+.productInSlaiderCallConsultantSpeakerLink a{
+	font-size: 13px;
+    line-height: 16px;
+    color: rgb(64, 132, 197);
+    font-weight: bold;
+    border-bottom: 1px dotted rgb(64, 132, 197);
+    text-decoration: none;
+}
+.icon-diff-productSlaider svg{
+    height: 9px;
+}

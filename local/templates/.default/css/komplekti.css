@@ -1,0 +1,326 @@
+.complects__card-item .buyOneClick a{
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: RobotoRegular;
+    text-transform: initial;
+}
+.complects__card--tab-2{
+    margin-top: 30px;
+}
+.filter__content-item img {
+    position: absolute;
+    left: -15px;
+    top: 4px;
+}
+.filter__content-item a {
+    color: #4084c5;
+}
+.filter__content-item a:hover {
+    color: #000;
+}
+.card-sort{
+    height: 56px;
+}
+.complects__card--tab-2:last-child {
+    margin-bottom: 90px;
+}
+
+.complects__card-item .buy__item-button {
+    margin-top: 0;
+}
+.btn.is-primary.is-outlined{
+    width: 100%;
+}
+.complects__card:last-child{
+    margin-bottom: 75px;
+}
+/*Комплекты по 3*/
+
+.complects__card.complects__card--tab-1{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.complects__card.complects__card--tab-1 .complects__card-item{
+    width: 570px;
+    height: auto;
+}
+.complects__card.complects__card--tab-1 .complects__card-img{
+    width: 16%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+.complects__card.complects__card--tab-1 .complects__card-description,
+.complects__card.complects__card--tab-1 .complects__card-price{
+    margin-top: 0;
+}
+.complects__card.complects__card--tab-1 .complects__card-item:last-child{
+width: 270px;
+    position: absolute;
+    margin-left: 600px;
+}
+.complects__card.complects__card--tab-1 .complects__card-item::after{
+    right: auto;
+    left: 45%;
+    top: 79%;
+    z-index: 1;
+}
+.complects__card.complects__card--tab-1 .complects__card-item:nth-child(3)::after,
+.complects__card.complects__card--tab-1 .complects__card-item:nth-child(4)::after{
+    top: -73%;
+    left: 98%;
+}
+.complects__card.complects__card--tab-1 .complects__card-item:not(:nth-child(4)) {
+    padding: 31px 70px;
+}
+.complects__card.complects__card--tab-1 .carousel .arrow.left {
+    left: 25px !important;
+}
+.complects__card.complects__card--tab-1 .carousel .arrow.right {
+    right: 25px !important;
+}
+.complects__card.complects__card--tab-1 .complects__card-item-slider-button .arrow.right.complects__card-item-swiper-right,
+.complects__card.complects__card--tab-1 .complects__card-item-slider-button .arrow.left.complects__card-item-swiper-left{
+    top: 37%;
+}
+.swiper-container{
+    position: static;
+}
+.goods__title{
+    margin: 0 0 35px;
+}
+@media (min-width: 768px) and (max-width: 1200px){
+    .goods__filter-title, .goods__filter-close-button {
+        display: block;
+    }
+    .goods__filter--show{
+        z-index: 99;
+    }
+    .complects__card-item::after {
+
+        right: -44px;
+
+    }
+    .goods__card-sort-filter {
+        display: flex;
+    }
+    .complects__card--tab-2 .complects__card-item {
+        padding: 20px;
+        width: 220px;
+    }
+    .complects__card--tab-2 .complects__card-img {
+        height: auto;
+        width: auto;
+    }
+    .complects__card--tab-2 .complects__card-item .buy__item-button {
+        min-width: 100%;
+    }
+    .complects__card--tab-2 .btn.is-primary.is-outlined {
+         min-width: 100%;
+     }
+    .complects__card.complects__card--tab-1 .complects__card-item:not(:nth-child(4)) {
+        padding: 31px 30px;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item {
+        width: 470px;
+        height: auto;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item:last-child {
+        width: 220px;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 0;
+    }
+    .complects__card.complects__card--tab-1 .btn.is-primary.is-outlined {
+        width: 100%;
+        min-width: 100%;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item .buy__item-button {
+        margin-top: 0;
+        min-width: 100%;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item .buy__item-title{
+        margin-bottom: 0;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item .buy__item-price-old {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item .buy__item-price-new {
+        font-size: 28px;
+    }
+    .complects__card.complects__card--tab-1 .buy__item {
+        padding: 24px;
+         padding-bottom: 15px;
+     }
+    .complects__card.complects__card--tab-1 .complects__card-item:nth-child(3)::after, .complects__card.complects__card--tab-1 .complects__card-item:nth-child(4)::after {
+        top: 43%;
+        left: -21%;
+    }
+}
+@media (max-width: 767px) {
+    .complects__card-img {
+        float: left;
+        width: 30%;
+        margin-right: 15px;
+        height: auto;
+    }
+    .complects__card-description {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        margin-top: 0;
+        margin-bottom: 0 !important;
+    }
+    .complects__card-price {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-top: 0;
+    }
+    .complects__card-item {
+        height: auto;
+    }
+    .carousel .arrow.left {
+        left: -17px !important;
+        top: 35% !important;
+    }
+    .carousel .arrow.right {
+        right: -17px !important;
+        top: 35% !important;
+    }
+    .complects__card-item::after {
+        top: 100px;
+        right: 45%;
+    }
+    .complects__card-item:nth-child(2),
+    .complects__card-item:nth-child(3) {
+         margin-top: 0;
+     }
+    .complects__card-item:last-child {
+        margin-top: 0;
+    }
+    .buy__item-economy {
+        width: 250px;
+        font-size: 10px;
+        margin: 0 -17px;
+    }
+    .complects__card-item .buy__item-title {
+        font-size: 14px;
+        text-align: center;
+    }
+    .complects__card-item .buy__item-price-old {
+        margin-top: 10px;
+        font-size: 12px;
+        vertical-align: middle;
+    }
+    .complects__card-item .buy__item-price-new {
+        font-size: 18px;
+        display: inline;
+    }
+    .buy__item-price{
+        text-align: center;
+    }
+    .complects__card-item .buy__item {
+        height: auto;
+    }
+    .complects__card--tab-2 .goods .btn.is-primary.is-outlined {
+        font-size: 11px;
+        width: 100%;
+        min-width: auto;
+    }
+    .complects__card-item .buy__item-button {
+        min-width: auto;
+        width: 120px;
+        display: inline-flex;
+        font-size: 14px;
+    }
+    .buyOneClick {
+        width: 120px;
+        display: inline-flex;
+        vertical-align: top;
+        margin-top: 0px;
+        float: right;
+    }
+    .complects__card-item .buyOneClick a{
+        font-size: 11px;
+        min-width: auto;
+    }
+    .complects__card-item .buy__item:nth-child(2) {
+        border: none;
+        background-color: #f9f9fb;
+        padding: 20px 10px;
+    }
+    .complects__card-item::after{
+        width: 25px;
+        height: 25px;
+        display: flex;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item:not(:nth-child(4)) {
+        padding: 20px;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-img {
+        width: 30%;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item:last-child {
+        width: 270px;
+        position: relative;
+        margin-left: 0;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item {
+        width: auto;
+        height: auto;
+        min-width: 0;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item:nth-child(3)::after {
+        top: 89%;
+        left: 45%;
+        display: flex;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item:nth-child(4)::after{
+        display: none;
+    }
+    .complects__card--tab-2 .complects__card-item:last-child {
+        margin-top: 0;
+    }
+    .complects__card.complects__card--tab-1 .carousel .arrow.right {
+        right: -18px !important;
+    }
+    .complects__card.complects__card--tab-1 .carousel .arrow.left {
+        left: -18px !important;
+    }
+    .complects__card.complects__card--tab-1 .complects__card-item::after {
+
+         right: auto;
+         left: 45%;
+         top: 90%;
+
+     }
+    .complects__card-item::after{
+        content: "";
+        background-image: url(../images/icons/goods__card-plus.png);
+        background-size: contain;
+         z-index: 1;
+    }
+    .complects__card-item:nth-child(3)::after, .complects__card-item:nth-child(4)::after,
+    .complects__card--tab-2 .complects__card-item:nth-child(2)::after{
+        content: "";
+        background-image: url(../images/icons/goods__card-eequally.png);
+    }
+    .goods__card-sort-filter {
+        display: flex;
+    }
+    .goods__filter-title, .goods__filter-close-button {
+        display: block;
+    }
+    .goods__filter--show{
+        z-index: 99;
+    }
+}
+
+.close-change-region {
+  display: inline-flex;
+  padding-left: 5px;
+}

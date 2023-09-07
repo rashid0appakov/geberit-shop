@@ -1,0 +1,48 @@
+.brand-items{position: relative; clear: both; overflow: hidden;}
+    .brand-item{position: relative; clear: both; overflow: hidden;
+        border: 1px dotted #ebebeb; padding: 40px 40px 40px 0px; margin-bottom: 25px;}
+    .brand-item::after{
+        display: block; position: absolute; border-left: 1px solid #ebebeb;
+        width: 1px; content: ' '; left: 30%; top: 0px; bottom: 0px;}
+    .brand-item-title-wrapper{position: relative; overflow: hidden; float: right;
+        width: 65%; margin-left: 5%;}
+        .brand-item-title-wrapper h2{font-size: 15px; font-weight: bold;}
+            .brand-item-title-wrapper h2 span{font-weight: normal;}
+    .brand-item-photo{float: left; width: 30%; text-align: center; position: relative;
+        line-height: 180px; margin-bottom: -100px;}
+        .brand-item-photo img{width: 75%;}
+    .brand-item-blocks{float: left; width: 45%; margin-right: 5%; position: relative; overflow: hidden;
+        padding-top: 20px;}
+    .brand-item-blocks:last-child{margin-right: 0px;}
+        .brand-item-blocks h3{font-size: 13px; margin-top: 0px; font-weight: bold; margin-bottom: 15px;}
+        .brand-item-blocks li{margin-bottom: 10px; font-size: 13px; color: #a7a7a7;}
+            .brand-item-blocks li a{font-size: 13px;}
+
+    .brand-item-link{display: block; text-decoration: none; width: 30px; height: 30px;
+        background: url('/local/templates/tiptop/images/arrowCard.png') no-repeat 0 0;
+        position: absolute; right: 25px; bottom: 25px;}
+
+@media screen and (max-width: 768px) {
+    .brand-item-title-wrapper{width: 100%; margin: 0px;}
+    .brand-item-photo{width: 100%; line-height: 100%; margin-bottom: 0px;}
+    .brand-item-photo img{width: auto; margin-bottom: 20px;}
+    .brand-item::after{display: none;}
+    .brand-item{padding: 30px;}
+}
+
+#brand-letters {margin : 0 0 10px 0;}
+#brand-letters li {float: left; margin : 0 10px 25px 0;}
+#brand-letters li a {display: bloack; padding: 5px; border: 1px solid #ebebeb;}
+#brand-letters li a.active {color: #fff; background-color: #ea3b5c;}
+
+.hidden-brands {
+    display: none;
+}
+
+.show-more-brands{
+	display: inline-block;
+    color: #8c8c8c;
+    text-decoration: none;
+    border-bottom: 1px dotted #8c8c8c;
+    font-size: 20px;
+}

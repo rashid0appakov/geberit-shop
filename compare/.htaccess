@@ -1,0 +1,9 @@
+<Files .*>
+RewriteEngine off
+allow from all
+</Files>
+
+<Files ~ "\.(php|phtml|PHP)$">
+RewriteEngine off
+allow from all
+</Files>

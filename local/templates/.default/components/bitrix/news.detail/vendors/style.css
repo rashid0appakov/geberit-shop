@@ -1,0 +1,4 @@
+#brand-letters {margin : 10px 0;}
+#brand-letters li {float: left; margin : 0 10px 25px 0;}
+#brand-letters li a {display: bloack; padding: 5px; border: 1px solid #ebebeb;}
+#brand-letters li a.active {color: #fff; background-color: #ea3b5c;}

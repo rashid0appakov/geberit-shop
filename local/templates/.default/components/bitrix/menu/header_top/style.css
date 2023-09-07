@@ -1,0 +1,21 @@
+.main-navigate a {
+    font-family: RobotoRegular;
+    font-size: 13px;
+    color: #010101;
+    transition: color .3s linear;
+    display: inline-block;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-navigate a:first-child {
+    padding-left: 0;
+}
+
+.main-navigate a:hover {
+    color: #4084c5;
+    transition: color .3s linear;
+}

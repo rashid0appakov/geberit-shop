@@ -1,0 +1,39 @@
+
+#top_promo .owl-theme .owl-dots, #top_promo .owl-theme .owl-nav{
+    display: none;
+}
+#top_promo{padding: 0 !important;}
+#top_promo .container{width: 395px !important;height: 60px !important;max-width:395px !important;padding-left: 0px;
+    padding-right: 0px;
+}
+@media (max-width: 550px){
+    #top_promo{height: auto !important;}
+
+}
+.promo .text {
+    position: absolute;
+    top: 95px;
+    left: 136px;
+    right: 130px;
+    text-align: left;
+}
+
+.promo .text .text-before {
+    margin-bottom: 15px;
+}
+
+.promo .text .text-before,
+.promo .text .text-after {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+}
+
+.promo .title {
+    font-family: RobotoCondensedBoldItalic, sans-serif;
+    font-size: 72px;
+    line-height: 81px;
+    color: white;
+    text-transform: uppercase;
+}

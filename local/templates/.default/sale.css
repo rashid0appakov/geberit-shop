@@ -1,0 +1,92 @@
+.button{display:inline-block;position:relative;height:44px;padding:0 1.4em;border-radius:3px;box-shadow:inset 0px 0px 0px 0 #0f73ee;color:#fff;font-size:16px;font-weight:500;line-height:44px;cursor:pointer;}
+.button:hover{box-shadow:inset 0px 0px 0px 0 #0c5cbe;color:#fff;}
+.button:hover .icon{color:#fff;}
+.button:active{box-shadow:inset 0px 0px 0px 0 #c2c2c2;}
+.button .icon{color:#fff;}
+.button--flat{box-shadow:inset 0px 0px 0px 100px #0f73ee;}
+.button--flat:hover{box-shadow:inset 0px 0px 0px 100px #0c5cbe;color:#fff;}
+.button--flat:hover .icon{color:#fff;}
+.button--flat:active{box-shadow:inset 0px 0px 0px 100px #083b7b;}
+.button--icon i{margin-left:auto;}
+.button--icon--only{width:44px;padding:0!important;}
+.button--xs{font-size:100%;height:24px;line-height:24px;font-weight: 600;}
+.notify-wrapper .notify--banner .notification__close{font-size:14px;height:34px;line-height:34px;}
+.notify-wrapper .notify--banner .button--icon--only.notification__close{width:34px;height:34px;}
+.button--md{font-size:16px;height:44px;line-height:44px;}
+.button--md.button--icon--only{width:44px;height:44px;}
+.button--inverted{--color:color($color, 'buttons-text');color:#5f7d95;}
+.button--inverted .icon{color:#5f7d95;}
+.button--inverted.button--flat{float: right;background: transparent;box-shadow: 0px 0px 0px 0px transparent;border: 0px;color: #fff;}
+.button--inverted:active{box-shadow:inset 0px 0px 0px 100px #e3e9ed;}
+.checkbox,.button--icon{display:flex;flex-wrap:wrap;align-items:flex-start;}
+.checkbox,.button--icon{align-items:center;}
+.icon{display:block;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;speak:none;}
+.icon::before{font-family:"bobjoll";font-style:normal;font-weight:normal;font-variant:normal;}
+.icon{width:20px;height:20px;font-size:20px;line-height:20px;color:#5f7d95;fill:#5f7d95;}
+.notify-wrapper .notify--banner .notification__close .icon{color:#fff!important;fill:#fff!important;}
+.icon--md{width:20px;height:20px;font-size:20px;line-height:20px;}
+.notify-wrapper .notify--banner .notification__close .icon--md.icon{padding:7px;box-sizing:content-box;}
+.icon--md.icon--mg-md{padding:12px;box-sizing:content-box;}
+.icon--check::before{content:"\f116";}
+.icon--cross::before{content:"\f125";}
+.notification{position:relative;opacity:0;width:90vw;max-width:680px;min-height:44px;margin:20px;padding:20px;border-radius:3px;background-color:#fff;box-shadow:0 0 60px rgba(34,34,34,0.25);pointer-events:all;}
+.notification__close:not(.nostyle){position:absolute;top:0;right:0;}
+.notification--no-shadow{box-shadow:none;}
+.notification--static{width:100%;max-width:inherit;margin:0 0 20px;}
+.notification--hide-disable .notification__disable{display:none;}
+.notification--show{opacity:1;}
+#campaign-christmas-landing p{display:inline;}
+#campaign-christmas-landing .notification__close{top:50%;z-index:99;transform:translateY(-50%);color:#113255!important;}
+#campaign-christmas-landing .notification__close .icon{color:#113255!important;}
+#campaign-christmas-landing .notification__content{padding:0;}
+#campaign-christmas-landing .notification__content a{position:relative;z-index:10;display:block;padding:20px 0px 20px 0px;color: #ffffff!important;text-decoration: none;}
+#campaign-christmas-landing .notification__content a b{color:#1273eb!important;font-weight:bold;}
+@media screen and (max-width: 1280px){
+.button--inverted.button--flat {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 940px){
+#campaign-christmas-landing .notification__content a{display:flex;flex-wrap:wrap;align-items:center;padding:10px 0px 10px 0px;font-size:14px;}
+#campaign-christmas-landing .notification__content a p {
+    flex: 1;
+    min-width: 100%;
+    text-align: center;
+    font-size: 19px;
+}
+.button--inverted.button--flat {
+    margin: auto;
+    top: 5px;
+    font-size: 9px;
+}
+div#campaign-christmas-landing {
+    margin: 0px;
+}
+}
+@media screen and (min-width: 768px){
+#campaign-christmas-landing .santa,#campaign-christmas-landing::after{position:absolute;content:'';}
+}
+
+.button:hover{text-decoration:none!important;}
+.notification__content{padding-right:29px;}
+.notify-wrapper .notify--banner{padding: 10px 10px;border-radius:0!important;background-color: #4084c5;color:#fff;margin: 0px;}
+.notify-wrapper .notify--banner .notification__close{border-radius:50%;top:5px;right:10px;box-shadow:none!important;}
+.notify-wrapper .notify--banner .notification__close:hover{box-shadow:inset 0 0 34px rgba(29,38,45,0.75)!important;}
+.notify-wrapper .notify--banner a{color:#fff!important;}
+.notify-wrapper .notify--banner a:hover{text-decoration:underline;}
+a{font-weight:500;}
+.checkbox__indicator{box-shadow:inset 0 0 0 1px #cfd9e0;}
+
+@keyframes snowY{0%{background-position-y:0, bottom, 0;}100%{background-position-y:210px, bottom, 0;}}
+@keyframes snowX{0%{background-position-x:0, right, 0;}100%{background-position-x:3120px, right, 0;}}
+@keyframes santaMovement{0%{transform:translate(40px, 60px);}100%{transform:translate(-1000px, -60px);}}
+@keyframes santaRotate{0%{transform:rotate(-3deg);}50%{transform:rotate(3deg);}100%{transform:rotate(-3deg);}}
+
+#campaign-christmas-landing p {
+    display: inline;
+    font-family: AbradeBold;
+    top: 3px;
+    position: relative;
+    font-size: 22px;
+}

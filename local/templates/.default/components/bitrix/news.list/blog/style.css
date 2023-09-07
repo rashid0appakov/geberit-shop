@@ -1,0 +1,51 @@
+.blog-list
+{
+	display: flex;
+	justify-content: normal;
+	margin: 0 -1%;
+	width: 104%;
+	flex-wrap: wrap;
+}
+.blog-item
+{
+	width: 48%;
+	margin: 1%;
+	position: relative;
+	transition: .3s linear;
+	border: #ebebeb solid 1px;
+}
+.blog-item:hover 
+{
+    box-shadow: 2.5px 4.33px 16px rgba(0, 0, 0, 0.12);
+}
+.blog-item-image
+{
+	max-width: 100%;
+}
+.blog-item-info
+{
+	margin: 0 10px 10px 10px;
+}
+.blog-item-title {
+	display: block;
+	color: #000;
+	font-size: 19px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+.blog-item-text
+{
+	
+}
+.blog-item-more
+{
+	display: block;
+	margin: 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+.blog-item
+{
+	width: 98%;
+}
+}

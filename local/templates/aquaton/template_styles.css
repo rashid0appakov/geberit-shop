@@ -1,0 +1,159 @@
+body{background-color: #fafafa;}
+body a, body .main-popular-category .list a, .main-popular-category .attachment a,
+body .toolbar-bottom__phone-link a, body .sidebar-menu__childs .sidebar-menu__item a:hover,
+body .sidebar-menu__childs .sidebar-menu__item--active a,
+body .breadcrumbs .dropdown-icon .dropdown-wrap a,
+body .description__link, body .buy__item-diff-link, body .catalog-menu-popup .subcategories a.is-size-4:hover{
+    color: #00307c;}
+
+body .footer-bottom a, body .footer-middle a{color: #888; text-decoration: underline;}
+body .footer-bottom a:hover, body .footer-middle a:hover{text-decoration: none;}
+
+body .main-popular-category .list a:hover, body .main-popular-category .attachment a:hover{text-decoration: none; color: #363636;}
+.current-region .value{color: #000; text-decoration: none;}
+body .middle-header .phone a.actionCallRequest, body .middle-header .help span a.actionChatConsultant,
+body .middle-header .help span a.callBackShow{color: #000; border-bottom-color: #000;}
+body .main-navigate a:hover, body .is-collapsed.filter__title{color: #000;}
+
+body .categories__list-item--active{color: #00307c !important;}
+
+body .btn.is-primary, body .btn.is-primary a, body .bottom-header .column:last-child .navbar-link:hover,
+body .all-sales-popup--show~.navbar-link, .file-upload .inputFileFree,
+body .popupTellMe input[type="submit"], body .popupCommon input[type="submit"], .toolbar-bottom__button,
+body .card-cell__show-more, body .callBackLink, body .callBackLinkClose,
+body .filter__item .filter__button-mobile--blue{
+    background-color: #00307c;
+}
+body .all-sales-popup--show~.navbar-link span:first-child, body .bottom-header .column:last-child .navbar-link:hover span:first-child {color: #00307c;}
+body .btn.is-primary.is-outlined, .modal .city a:hover{color: #00307c;border-color: #00307c;}
+body .btn.is-primary.is-outlined.is-active, body .btn.is-primary.is-outlined:active,
+body .btn.is-primary.is-outlined.is-hovered, body .btn.is-primary.is-outlined:hover,
+body .callBackLink, body .callBackLinkClose, body .catalog-menu-popup .btn.categories__list-item--active{
+    background-color: #00307c;}
+
+body .btn.is-hovered, body .btn:hover, body .btn.is-primary.is-active,
+body .btn.is-primary:active, body div.btn.is-primary:hover, body .popupTellMe input[type="submit"]:hover,
+body .popupCommon input[type="submit"]:hover, .file-upload .inputFileFree:hover,
+body .popupCommon input[type="submit"]:focus, body .toolbar-bottom__button:hover,
+body .card-cell__show-more:hover, body .catalog-menu-popup .btn.categories__list-item--active:hover{background-color: #001c49;}
+
+body .middle-header .tag.is-warning, body .toolbar-bottom__button .tag.is-warning,
+body .tag:not(body).is-warning{background-color: #00307c; color: #fff;}
+
+body .bottom-header .column:last-child .navbar-link::before{background-color: #00307c !important;}
+body .bottom-header{background-color: #00307c;}
+
+body .bottom-header .catalog-button{height: 70px;}
+    body .bottom-header .catalog-button button.is-primary{background-color: #363636; height: 70px;
+        border-radius: 0px;}
+    body .bottom-header .catalog-button .is-primary:hover{background-color: #433d4f; color: #fff;}
+    body .bottom-header .catalog-button .is-primary:hover .icon-burger{background-image: url('/local/templates/.default/images/icon__burger.png') !important;}
+	body .bottom-header .catalog-button .is-primary:hover .icon-burger--cross {background-image: url('/local/templates/.default/images/icon__cross.png') !important;}
+    body .button__open-menu--white{background-color: #433d4f !important; color: #fff !important;}
+
+body .compare-added.button{background-color: #00307c; border-color: #00307c;}
+
+body .preview-products .extends a, body .product .product__consultant a, body .status a, body .account a{color: #00307c;}
+
+body .tabs__header--title.active{color: #00307c !important;}
+body .tabs__underline{background-color: #00307c;}
+
+body .sidebar-menu__item--active>.sidebar-menu__item-title,
+body .sidebar-menu__item > .sidebar-menu__item-title:hover{background-color: #00307c;}
+body .sidebar-menu__item .sidebar-menu__childs .sidebar-menu__item-title:hover{background-color: transparent;}
+body .footer-top, body .footer-middle{background-color: #363636;}
+body .footer-bottom{background-color: #000;}
+body .footer-top .phone{color: #cc2222;}
+
+body .footer-top .is-size-5, body .footer-top .address,
+body .footer-middle .more p, body .footer-bottom .is-size-5{color: #888;}
+/*body .footer-top .link, body .footer-top .email, body .footer-top .columns .column:last-child p,
+body .footer-middle p, body .footer-top .timework{color: #777;}
+body .footer-top .catalog-menu{border-color: #f0f0f0;}
+body .footer-middle, body .footer-bottom, body .footer-top{background-color: #fff;}
+body .footer-top{border-color: #f0f0f0; border-top: 1px solid #f0f0f0;}
+*/
+body .toolbar-bottom{border-top: 1px solid #f0f0f0;}
+
+body .breadcrumbs .dropdown-icon .dropdown-wrap a:hover{background-color: #3853d8;}
+body .card-cell__show-more{border-color: #00307c;}
+body .card-cell__show-more:hover{border-color: #fb6f12;}
+
+body .compare-added.button.buy__item-diff .column{fill: #3853d8;}
+body .carousel .arrow:hover{background-color: #00307c !important;}
+
+.filter__item, .card-sort{background-color: #fff;}
+.filter__checkbox label:before, .form-group label{background-color: #fafafa;}
+body .catalog-menu-popup .btn.categories__list-item--active:hover,
+body .catalog-menu-popup .btn.categories__list-item--active{color: #fff !important;}
+
+.roistat_desktop {
+	background-color: #00307c !important;
+}
+
+.page_product_viewed_button_compare {
+	background-color: #f39600 !important;
+}
+
+.list_prop {
+    display: block;
+}
+
+@media (max-width: 768px) {
+	.list_prop {
+		height: auto;
+	}
+}
+
+.layer_list {
+	background-color: #00307c;
+}
+
+.main-menu-mobile a.is-active {
+	background: #433d4f;
+}
+
+.toolbar-bottom__button.is-desabled {
+	background-color: #feb94b !important;
+}
+
+.toolbar-bottom__button.is-desabled:hover {
+	background-color: #fb6f12 !important;
+}
+.js-input-from.form-control.filter-fast-search-input:focus
+{
+	border: 1px solid #00307c;
+}
+
+.roistat_desktop {
+	top:  -15px;
+}
+
+.roistat_mobile {
+	display: none;
+	position: absolute;
+    top: -20px;
+    left: 0px;
+    background-color: #00307c;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+@media (max-width: 768px) {
+	.roistat_desktop {
+		display: none;
+	}
+
+	.roistat_mobile {
+		display: block;
+	}
+
+}
+
+.actionCallRequest {
+	color: #000 !important;
+	border-bottom: 1px dotted #000;
+    text-decoration: none !important;
+}

@@ -1,0 +1,298 @@
+.comparison .filter__checkbox.radiobox label::before {
+    border-radius: 50px;
+}
+.comparison .filter__checkbox.radiobox input[type="radio"]:checked + label::before {
+    background: #85bd57;
+    border: none;
+}
+.comparison .filter__checkbox.radiobox input[type="radio"]:checked + label::after {
+    transform: translate(0.25em, 0.3365384615em) rotate(-45deg);
+    width: 10px;
+    height: 6px;
+    border: 0.125em solid #fff;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-top-style: none;
+    border-right-style: none;
+    margin: 2px 0 0 2px;
+}
+.comparison .filter__checkbox.radiobox input[type="radio"]{
+    opacity: 0;
+}
+.comparison .filterBlock {
+    width: 270px;
+    background-color: #f9fafc;
+}
+.comparison .filterBody,
+.comparison .filterTitle{
+    border: 1px solid #ebebeb;
+    padding: 20px;
+}
+.comparison .filterTitle span{
+    color: #161515;
+    font-size: 14px;
+    font-weight: 700;
+}
+.comparison .filterBody .sel{
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.comparison .table {
+    margin: 0 0 40px 0;
+    width: 115%;
+    display: table;
+}
+.comparison .swiper-slide:first-child .table {
+    margin-left: 0;
+}
+.comparison .row {
+    display: table-row;
+    background: #fff;
+}
+.comparison .row:nth-of-type(odd) {
+    background: #f9fafc;
+}
+.comparison .rownth2{
+    background: #f9fafc;
+}
+.comparison .cell {
+	padding: 13px 5%;
+	/* display: table-cell; */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 80%;
+}
+.comparison .titleRowTable {
+    margin-top: 201.5px;
+    font-family: AbradeBold;
+}
+
+.comparison .container.is-widescreen {
+    max-width: 875px;
+    width: 100%;
+}
+
+.comparison .swiper-wrapper .product{
+    min-height: 0 !important;
+}
+.comparison .comparison > .columns{
+    align-items: start;
+}
+
+ .clearCart a span{
+    color: #b6b6b6;
+    font-family: AbradeBold;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    border-bottom: 1px dotted;
+}
+.clearCart a:hover span{
+    border-bottom: 1px solid;
+}
+.clearCart a:before{
+    content: url("../images/trash-icon.png");
+    vertical-align: sub;
+    margin-right: 13px;
+}
+.clearCart{
+    margin-left: 30px;
+    height: 34px;
+    margin-top: 10px;
+}
+.clearCart {
+    float: right;
+}
+
+.comparison .carousel .arrow{
+    top: 22%;
+}
+.comparison .carousel .arrow.left {
+    left: -20px !important;
+    background-position-x: -2px;
+}
+.comparison .carousel .arrow.right {
+    right: -20px !important;
+    background-position-x: 0px;
+}
+.comparison .titleTableMobile{
+    display: none;
+}
+.comparison .product__link-img-1 {
+    animation: fadeIn 1s;
+}
+.comparison .product__link-img-2 {
+    display: none;
+}
+.comparison .product:hover .product__link-img-2 {
+    display: inline-block;
+    animation: fadeIn 1s;
+}
+.comparison .product:hover .product__link-img-1 {
+    display: none;
+}
+.comparison .product .close img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 999;
+}
+.comparison .product .close:hover img {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
+@media (min-width: 1365px){
+    .comparison .swiper-slide{
+        max-width: 270px;
+    }
+}
+@media (max-width:1999px) {
+    .comparison .column.is-3 {
+        display: block;
+    }
+}
+@media (max-width: 1024px) {
+    .comparison .filterBlock {
+        width: 240px;
+    }
+    .comparison .container.is-widescreen {
+        max-width: 70vw !important;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .clearCart {
+        margin-top: 0;
+    }
+    .clearCart a span {
+        display: none;
+    }
+    .clearCart a::before {
+        display: inline-block;
+        transform-origin: center center;
+        margin-top: 8px;
+    }
+    .goods__title-title {
+        margin-bottom: 10px;
+    }
+    .comparison .rownth2{
+        background: #fff;
+    }
+    .comparison .titleTableMobile{
+        display: block;
+    }
+    .comparison .titleRowTable{
+        display: none;
+    }
+    .comparison .filterBlock {
+        width: 100%;
+    }
+    .comparison .filter {
+        width: 100%;
+    }
+    .comparison .filterBody{
+        display: none;
+    }
+    .comparison .filterTitle {
+        text-align: center;
+    }
+    .comparison .filterTitle span:before {
+        content: url("../images/folter-icon.png");
+        margin-left: 8px;
+    }
+    .comparison .filter {
+        margin-bottom: 30px;
+    }
+    .comparison .cell {
+        padding: 15px 12px;
+        display: table-cell;
+        font-size: 12px;
+    }
+
+    .comparison .table {
+        margin-top: 50px;
+    }
+    .comparison .titleTableMobile{
+        position: fixed;
+        width: 100%;
+        transition-duration: 0.5s;
+    }
+    .comparison .titleTableMobile .cell {
+        padding: 15px 12px;
+        display: block;
+        font-size: 12px;
+        text-align: center;
+    }
+    .comparison .row.rowMobile {
+        margin-top: 42px;
+        display: block;
+    }
+    .comparison .swiper-slide-active .titleTableMobile{
+        z-index: 99;
+        transition-duration: 0.5s;
+    }
+    .comparison .finger-mobile-wrapper {
+        position: absolute;
+        top: 303px;
+        display: block;
+        width: 100vw;
+        text-align: center;
+    }
+
+
+    .comparison .itemScrollMobile{
+        display: none;
+        position: fixed;
+        width: 50%;
+        top: 0;
+        display: block;
+        background: #fff;
+        padding: 5px;
+        z-index: 99999;
+        border-left: 1px solid rgb(235, 235, 235);
+        box-shadow: 0 10px 6px -2px rgb(235, 235, 235);
+    }
+    .comparison .itemScrollMobile img{
+
+        width: 28%;
+        float: left;
+
+    }
+    .comparison .itemScrollMobile p{
+
+        font-size: 12px;
+        margin-bottom: 5px;
+
+    }
+    .comparison .itemScrollMobile p:last-child{
+
+        font-size: 16px;
+        font-family: AbradeBold;
+        color: #1e1e1e;
+
+    }
+}
+@media (max-width: 550px) {
+    .comparison .container.is-widescreen {
+        max-width: 100vw !important;
+        margin: 1px -15px;
+        width: 100vw !important;
+        padding: 0;
+    }
+    .comparison .carousel .arrow {
+        display: none;
+    }
+    .comparison .finger-mobile-wrapper {
+        bottom: 895px;
+        top: auto;
+    }
+}
+@media (min-width: 551px){
+    .comparison .itemScrollMobile {
+        display: none !important;
+    }
+}

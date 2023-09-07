@@ -1,0 +1,29 @@
+<?
+if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
+$GLOBALS['CUSTOM_FILTER'] = [
+	'NEWPRODUCT' => [
+		"=PROPERTY_NEWPRODUCT" => 'Y',
+		"CATALOG_AVAILABLE" => 'Y',
+//		"SECTION_GLOBAL_ACTIVE" => 'Y',
+	],
+	'SHOWROOM' => [
+		"=PROPERTY_SHOWROOM" => 'Y',
+		"CATALOG_AVAILABLE" => 'Y',
+//		"SECTION_GLOBAL_ACTIVE" => 'Y',
+	],
+	'SALELEADER' => [
+		"=PROPERTY_SALELEADER" => 'Y',
+		"CATALOG_AVAILABLE" => 'Y',
+//		"SECTION_GLOBAL_ACTIVE" => 'Y',
+	],
+	'DISCOUNT' => [
+		"=PROPERTY_DISCOUNT" => 'Y',
+		"CATALOG_AVAILABLE" => 'Y',
+//		"SECTION_GLOBAL_ACTIVE" => 'Y',
+	],
+	'SALEGOODS' => [
+		"=PROPERTY_SALEGOODS" => 'Y',
+		"CATALOG_AVAILABLE" => 'Y',
+//		"SECTION_GLOBAL_ACTIVE" => 'Y',
+	],
+];
